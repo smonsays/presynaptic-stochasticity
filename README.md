@@ -1,4 +1,4 @@
-# Dynamic DropConnect
+# Presynaptic Stochasticity
 
 This repository contains code to execute the main experiments of the paper [Presynaptic Stochasticity Improves Energy Efficiency and Alleviates the Stability-Plasticity Dilemma](https://doi.org/10.1101/2021.05.05.442708).
 
