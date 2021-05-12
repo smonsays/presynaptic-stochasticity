@@ -1,0 +1,19 @@
+{
+    "dataset": {
+        "name": "mnist",
+        "kwargs":{
+            "batch_size": 100
+        }
+    },
+    "dimensions": [784, 200, 200, 10],
+    "epochs": 50,
+    "fixed_bias": true,
+    "learning_rate": 0.08,
+    "nonlinearity": "relu",
+    "model": "mlp",
+    "optimizer": "sgd",
+    "prob_release": null,
+    "seed": null,
+    "test_samples": 10,
+    "weight_decay": 0.01
+}

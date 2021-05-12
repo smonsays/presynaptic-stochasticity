@@ -1,0 +1,31 @@
+{
+    "dataset": {
+        "name": "perm_fmnist",
+        "kwargs":{
+            "batch_size": 100,
+            "num_tasks": 10
+        }
+    },
+    "dimensions": [784, 200, 200, 10],
+    "epochs": 10,
+    "fixed_bias": true,
+    "fixed_probs": null,
+    "grad_hard_reset": true,
+    "grad_threshold": 0.001,
+    "hard_freeze": false,
+    "learning_rate": 0.01,
+    "lr_modulation": true,
+    "manual_freeze": false,
+    "model": "dyn",
+    "nonlinearity": "relu",
+    "normalise": true,
+    "optimizer": "sgd",
+    "prob_drift_down": 0.0516,
+    "prob_drift_up": 0.0520,
+    "prob_freeze": 0.9353,
+    "prob_max": 1.0,
+    "prob_min": 0.25,
+    "seed": null,
+    "test_samples": 10,
+    "weight_decay": 0.0
+}

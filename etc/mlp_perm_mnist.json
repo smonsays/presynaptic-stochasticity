@@ -1,0 +1,20 @@
+{
+    "dataset": {
+        "name": "perm_mnist",
+        "kwargs":{
+            "batch_size": 100,
+            "num_tasks": 10
+        }
+    },
+    "dimensions": [784, 200, 200, 10],
+    "epochs": 10,
+    "fixed_bias": true,
+    "learning_rate": 0.001,
+    "nonlinearity": "relu",
+    "model": "mlp",
+    "optimizer": "sgd",
+    "prob_release": null,
+    "seed": null,
+    "test_samples": 1,
+    "weight_decay" : 0.0
+}

@@ -1,0 +1,30 @@
+{
+    "dataset": {
+        "name": "mnist",
+        "kwargs":{
+            "batch_size": 100
+        }
+    },
+    "dimensions": [784, 200, 200, 10],
+    "epochs": 50,
+    "fixed_bias": true,
+    "fixed_probs": null,
+    "grad_hard_reset": true,
+    "grad_threshold": 0.001,
+    "hard_freeze": false,
+    "learning_rate": 0.05,
+    "lr_modulation": false,
+    "manual_freeze": false,
+    "model": "dyn",
+    "nonlinearity": "relu",
+    "normalise": true,
+    "optimizer": "sgd",
+    "prob_drift_down": 0.07,
+    "prob_drift_up": 0.07,
+    "prob_freeze": 1.0,
+    "prob_max": 1.0,
+    "prob_min": 0.25,
+    "seed": null,
+    "test_samples": 10,
+    "weight_decay": 0.01
+}
