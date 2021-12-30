@@ -1,6 +1,6 @@
-# Presynaptic Stochasticity
+# Presynaptic stochasticity & plasticity
 
-This repository contains code to execute the main experiments of the paper [Presynaptic Stochasticity Improves Energy Efficiency and Alleviates the Stability-Plasticity Dilemma](https://doi.org/10.1101/2021.05.05.442708).
+This repository contains code to execute the main experiments of the paper [Presynaptic stochasticity improves energy efficiency and helps alleviate the stability-plasticity dilemma](https://doi.org/10.7554/eLife.69884).
 
 ## Usage
 
@@ -37,15 +37,22 @@ pip install -r requirements.txt`
 If you use this code in a scientific publication, please include the following reference in your bibliography:
 
 ```bibtex
-@article {schug2021,
-  author = {Schug, Simon and Benzing, Frederik and Steger, Angelika},
-  title = {Presynaptic Stochasticity Improves Energy Efficiency and Alleviates the Stability-Plasticity Dilemma},
-  elocation-id = {2021.05.05.442708},
-  year = {2021},
-  doi = {10.1101/2021.05.05.442708},
-  publisher = {Cold Spring Harbor Laboratory},
-  eprint = {https://www.biorxiv.org/content/early/2021/05/05/2021.05.05.442708.full.pdf},
-  journal = {bioRxiv}
+@article {10.7554/eLife.69884,
+article_type = {journal},
+title = {Presynaptic stochasticity improves energy efficiency and helps alleviate the stability-plasticity dilemma},
+author = {Schug, Simon and Benzing, Frederik and Steger, Angelika},
+editor = {Behrens, Timothy E and O'Leary, Timothy and Pfister, Jean-Pascal},
+volume = 10,
+year = 2021,
+month = {oct},
+pub_date = {2021-10-18},
+pages = {e69884},
+citation = {eLife 2021;10:e69884},
+doi = {10.7554/eLife.69884},
+url = {https://doi.org/10.7554/eLife.69884},
+journal = {eLife},
+issn = {2050-084X},
+publisher = {eLife Sciences Publications, Ltd},
 }
 ```
 
